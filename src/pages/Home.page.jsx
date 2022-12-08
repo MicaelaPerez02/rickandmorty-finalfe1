@@ -10,8 +10,8 @@ import Pagination from "../componentes/pagination/pagination.component";
 const Home = () => {
     return <div className="container">
         <div className="actions">
-            <h3>Character cataloge</h3>
-            <button className="danger">Test button</button>
+            <h3>Character Cataloge</h3>
+            <button className="danger">Test Button</button>
         </div>
         <Filters />
         <Pagination />

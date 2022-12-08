@@ -28,7 +28,7 @@ const Filter = () => {
                     dispatch(charactersSlice.actions.resetfilter());
                     dispatch(charactersSlice.actions.resetPage());
                 }}>
-                    Clean filters
+                    Clean Filters
                 </button>
             </div>
         </div>

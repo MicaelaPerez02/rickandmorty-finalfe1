@@ -29,6 +29,10 @@
   padding: 0rem 0rem 2rem 0rem;
 }
 
+button{
+  font-family: 'Zen Dots', cursive;
+}
+
 button.primary {
   cursor: pointer;
   color: white;
@@ -49,7 +53,7 @@ button.danger {
   cursor: pointer;
   width: 10rem;
   padding: 10px;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 500;
   border: 3px solid white;
   border-radius: 5px;
