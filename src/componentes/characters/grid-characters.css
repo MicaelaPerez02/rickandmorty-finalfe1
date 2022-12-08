@@ -6,20 +6,27 @@
 }
 
 .reset-favs {
-  border-radius: 5px;
-  height: 50px;
-  background-color: white;
-  cursor: pointer;
-  border-width: 2px;
-  transition: 0.5s;
-  margin-bottom: 30px;
+  color: white;
+  transition: all .5s ease;
+  width: 10rem;
+  border: 3px solid white;
+  
+  text-align: center;
+ 
+  font-size: 17px;
+  background-color:#66BA4F; 
+
+  padding: 10px;
+  outline: none;
+  border-radius: 4px;
 }
+
 .reset-favs:hover {
   background-color: rgb(223, 39, 39);
-  transform: scale(1.2);
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
   transition: 0.5s;
 }
+
 .reset-favs:active {
   background-color: rgb(165, 31, 31);
   transform: scale(0.95);

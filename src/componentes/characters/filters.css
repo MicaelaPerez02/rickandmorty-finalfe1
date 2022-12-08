@@ -1,7 +1,7 @@
 .filters {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 3rem;
 }
 .filters label {
   margin-bottom: 10px;
@@ -19,8 +19,25 @@
   border: 1px solid #d0d0d0;
 }
 
+
 .filters div button {
-  font-size: 14px;
-  font-weight: 500;
+  transition: all .5s ease;
+  width: 10rem;
+  border: none;
+  color: white;
+  
+  text-align: center;
+ 
+  font-size: 17px;
+  background-color:#66BA4F; 
+
+  padding: 10px;
+  outline: none;
+
   cursor: pointer;
+}
+
+.filters div button:hover {
+  color: #001F3F;
+  background-color: #fff;
 }

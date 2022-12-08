@@ -1,6 +1,14 @@
 .card-character {
   display: flex;
   flex-direction: column;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+}
+
+.card-character:hover {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
 }
 
 .card-character > img {
@@ -22,4 +30,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .card-character {
+    flex-direction: row;
+  }
 }

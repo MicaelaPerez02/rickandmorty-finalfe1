@@ -1,3 +1,18 @@
+.App:after{
+  content: "";
+  background: url("https://wallpaperboat.com/wp-content/uploads/2019/04/rick-and-morty-wallpaper-portal-wallpaper-001.jpg");
+  opacity: 0.5;
+  width: 100%;
+  height: 448%;
+  top: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.App header h2{
+  margin-left: 4.5rem;
+}
+
 .container {
   max-width: 1280px;
   width: 100%;
@@ -10,31 +25,35 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  padding: 0rem 0rem 2rem 0rem;
 }
 
 button.primary {
   cursor: pointer;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: 500;
-  border: 0;
-  border-radius: 5px;
-  background-color: rgb(10, 77, 157);
   color: white;
 }
 
 button.primary[disabled] {
-  background-color: rgb(128, 134, 140);
+  background-color: transparent
+}
+
+button.primary[disabled]:hover {
+  background-color: transparent;
+  color: white;
+  cursor: not-allowed;
 }
 
 button.danger {
+  transition: all .5s ease;
   cursor: pointer;
-  padding: 10px 20px;
-  font-size: 16px;
+  width: 10rem;
+  padding: 10px;
+  font-size: 17px;
   font-weight: 500;
-  border: 0;
+  border: 3px solid white;
   border-radius: 5px;
-  background-color: #8d2020;
+  background-color: #66BA4F;
   color: white;
 }
 
