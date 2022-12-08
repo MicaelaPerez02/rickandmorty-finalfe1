@@ -1,4 +1,4 @@
-.tarjeta-episodio {
+.card-episode {
   display: flex;
   flex-direction: column;
   width: fit-content;
@@ -7,22 +7,22 @@
   border-radius: 5px;
 }
 
-.tarjeta-episodio h4{
+.card-episode h4 {
   margin: 0;
   margin-bottom: 10px;
 }
 
-.tarjeta-episodio > span {
+.card-episode > span {
   font-size: 14px;
   font-weight: 400;
   opacity: 0.8;
 }
 
-.tarjeta-episodio div {
+.card-episode div {
   display: flex;
   justify-content: space-between;
 }
 
-.tarjeta-episodio div span:nth-child(1) {
+.card-episode div span:nth-child(1) {
   margin-right: 10px;
 }

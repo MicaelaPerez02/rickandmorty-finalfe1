@@ -1,9 +1,9 @@
-.tarjeta-personaje {
+.card-character {
   display: flex;
   flex-direction: column;
 }
 
-.tarjeta-personaje > img {
+.card-character > img {
   width: 300px;
   height: 300px;
   border-top-left-radius: 5px;
@@ -11,7 +11,7 @@
   border: 1px solid #d0d0d0;
 }
 
-.tarjeta-personaje > div.tarjeta-personaje-body {
+.card-character > div.card-character-body {
   padding: 10px;
   border: 1px solid #d0d0d0;
   border-top: 0;
