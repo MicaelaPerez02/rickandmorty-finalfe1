@@ -11,7 +11,7 @@ const Header = () => {
         <header>
             <div>
                 <div>
-                    <h2>Final exam Frontend IV</h2>
+                    <h2>Final Exam Frontend IV - Micaela Perez</h2>
                 </div>
                 <nav>
                     <ul>

@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Rick and Morty",
+  "name": "ctd-esp-fe1-final",
   "icons": [
     {
       "src": "favicon.ico",
