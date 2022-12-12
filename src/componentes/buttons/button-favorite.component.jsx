@@ -2,6 +2,8 @@ import "./button-favorite.css";
 import { useState } from "react";
 import { useAppDispatch } from "../../hooks";
 import { charactersSlice } from "../../slices";
+import star from "../../imagenes/star.png"
+import starFilled from "../../imagenes/star-filled.png"
 
 /**
  * Button that indicates if a person was selected as a favorite and allows marking and unmarking
@@ -31,7 +33,7 @@ const ButtonFavorite = ({ itsFavorite, character }) => {
     return (
         <div className="button-favorite">
             <img
-                src={favorite ? "/imagenes/star-filled.png" : "/imagenes/star.png"}
+                src={favorite ? starFilled : star}
                 alt={"favorite"}
                 onClick={() => handleChange()}
             />
