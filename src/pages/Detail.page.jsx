@@ -25,7 +25,7 @@ const PageDetail = () => {
     useEffect(() => {
         dispatch(charactersSlice.actions.getEpisodes(numberOfEpisodes));
         dispatch(loadEpisodes());
-    }, []);
+    },  [dispatch, numberOfEpisodes]);
 
     return (
         <div className="container">
