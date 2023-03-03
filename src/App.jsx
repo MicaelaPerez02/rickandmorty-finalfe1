@@ -11,8 +11,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="favorites" element={<PageFavorites />} />
-        <Route path="detail/:name/:id" element={<PageDetail />} />
+        <Route path="/favorites" element={<PageFavorites />} />
+        <Route path="/detail/:name/:id" element={<PageDetail />} />
       </Routes>
     </div>
   );
